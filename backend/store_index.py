@@ -14,7 +14,13 @@ pinecone = os.environ.get("PINECONE_API_KEY")
 os.environ["OPENAI_API_KEY"] = openai 
 os.environ["PINECONE_API_KEY"] = pinecone
 
-extracted_data = load_pdf_files(data = "C:\\Users\\hites\\OneDrive\\Desktop\\Bot\\data")
+# extracted_data = load_pdf_files(data = "C:\\Users\\hites\\OneDrive\\Desktop\\Bot\\data")
+
+current_dir = os.path.dirname(os.path.abspath(__file__))
+data_path = os.path.join(current_dir, '..', 'data')
+
+extracted_data = load_pdf_files(data=data_path)
+
 filtered_data = filter_docs(extracted_data)
 text_chunks = text_split(filtered_data)
 
