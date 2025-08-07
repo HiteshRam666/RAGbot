@@ -1,6 +1,6 @@
 class FinanceBot {
     constructor() {
-        this.apiUrl = 'http://localhost:8000'; // Update this to your backend URL
+        this.apiUrl = ''; // Use relative URL for same-domain deployment
         this.chatMessages = document.getElementById('chatMessages');
         this.messageInput = document.getElementById('messageInput');
         this.sendButton = document.getElementById('sendButton');
@@ -49,7 +49,7 @@ class FinanceBot {
     }
 
     async callAPI(message) {
-        const response = await fetch(`${this.apiUrl}/query`, {
+        const response = await fetch(`/query`, {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json',
