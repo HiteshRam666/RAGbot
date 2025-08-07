@@ -1,6 +1,6 @@
 # 🤖 Finance RAG Assistant
 
-A sophisticated Retrieval-Augmented Generation (RAG) application that provides intelligent financial advice and answers to finance-related questions using advanced AI technology.
+This repository contains a Finance Question Answering system using **Retrieval-Augmented Generation (RAG)**. It leverages LangChain, OpenAI, and Pinecone to provide accurate and context-based answers from financial documents.
 
 Click for demo: https://finance-rag-4zel.onrender.com/app
 
@@ -21,6 +21,8 @@ Click for demo: https://finance-rag-4zel.onrender.com/app
 
 ## 🎯 Overview
 
+The project is built using data extracted from the **Encyclopedia of Finance**, a comprehensive resource covering a wide range of financial topics. It enables users to ask finance-related questions and get precise, context-aware responses.
+
 The AI Finance RAG Assistant is a cutting-edge application that combines the power of Large Language Models (LLMs) with Retrieval-Augmented Generation to provide accurate, context-aware financial advice. The system processes financial documents, creates embeddings, stores them in a vector database, and retrieves relevant information to generate intelligent responses to user queries.
 
 ### How It Works
@@ -31,6 +33,9 @@ The AI Finance RAG Assistant is a cutting-edge application that combines the pow
 4. **Vector Storage**: Embeddings are stored in Pinecone vector database  
 5. **Query Processing**: User queries are processed and matched against stored embeddings  
 6. **Response Generation**: Relevant context is retrieved and used to generate accurate answers  
+
+![f90434a2-7f75-4c16-8461-d1efed5939d0_1380x730](https://github.com/user-attachments/assets/a573e35a-1aec-4384-a68e-0dedd9c4255b)
+
 
 ## ✨ Features
 
