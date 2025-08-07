@@ -2,7 +2,7 @@
 
 A sophisticated Retrieval-Augmented Generation (RAG) application that provides intelligent financial advice and answers to finance-related questions using advanced AI technology.
 
-[Click for demo]: https://finance-rag-4zel.onrender.com/app
+Click for demo: https://finance-rag-4zel.onrender.com/app
 
 ## 📋 Table of Contents
 
@@ -266,5 +266,3 @@ system_prompt = (
 - [LangChain](https://www.langchain.com)  
 
 ---
-
-**Built with ❤️ to make finance accessible through AI.**
