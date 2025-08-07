@@ -5,4 +5,5 @@ python-dotenv
 langchain_openai
 langchain-pinecone
 langchain-community
-uvicorn     
+uvicorn
+aiofiles     

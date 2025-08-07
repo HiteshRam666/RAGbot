@@ -1,6 +1,6 @@
 import os
 from dotenv import load_dotenv
-from src.helper import load_pdf_files, filter_docs, text_split
+from backend.src.helper import load_pdf_files, filter_docs, text_split
 from pinecone import Pinecone 
 from langchain_pinecone import PineconeVectorStore
 from langchain_openai import OpenAIEmbeddings
